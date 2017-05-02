@@ -18,7 +18,7 @@ defmodule Sling.Router do
   scope "/", Sling do
     pipe_through :browser
 
-    get "/", PageController, :index
+
   end
 
   scope "/api", Sling do

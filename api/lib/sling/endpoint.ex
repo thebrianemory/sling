@@ -36,5 +36,6 @@ defmodule Sling.Endpoint do
     key: "_sling_key",
     signing_salt: "hWqIqS49"
 
+  plug CORSPlug
   plug Sling.Router
 end
