@@ -1,0 +1,12 @@
+{application,sling,
+             [{description,"sling"},
+              {modules,['Elixir.Sling','Elixir.Sling.Endpoint',
+                        'Elixir.Sling.ErrorHelpers','Elixir.Sling.ErrorView',
+                        'Elixir.Sling.Gettext','Elixir.Sling.Repo',
+                        'Elixir.Sling.Router','Elixir.Sling.Router.Helpers',
+                        'Elixir.Sling.UserSocket','Elixir.Sling.Web']},
+              {registered,[]},
+              {vsn,"0.0.1"},
+              {mod,{'Elixir.Sling',[]}},
+              {applications,[kernel,stdlib,elixir,phoenix,phoenix_pubsub,
+                             cowboy,logger,gettext,phoenix_ecto,postgrex]}]}.
