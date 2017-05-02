@@ -36,7 +36,8 @@ defmodule Sling.Mixfile do
      {:postgrex, ">= 0.0.0"},
      {:gettext, "~> 0.11"},
      {:cowboy, "~> 1.0"},
-     {:comeonin, "~> 3.0"}]
+     {:comeonin, "~> 3.0"},
+     {:guardian, "~> 0.14"}]
   end
 
   # Aliases are shortcuts or tasks specific to the current project.
